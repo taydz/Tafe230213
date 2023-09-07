@@ -90,5 +90,10 @@ namespace Calculator
 				Utils.Utils.handleBackspace();
 			}
 		}
+
+		private void OperatorButtonControl_Loaded(object sender, RoutedEventArgs e)
+		{
+
+		}
 	}
 }
