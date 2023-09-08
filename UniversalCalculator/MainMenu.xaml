@@ -9,6 +9,9 @@
     Background="{ThemeResource SystemControlAcrylicWindowBrush}">
 
     <Grid>
+		<StackPanel HorizontalAlignment="Right">
+			<Image Source="/Assets/abacus.PNG" Stretch="UniformToFill" Width="150" Height="130"/>
+		</StackPanel>
 		<StackPanel VerticalAlignment="Center" HorizontalAlignment="Right" Width="1500">
 			<StackPanel>
 			 <TextBlock x:Name="titleTextBlock" Text="Universal Calculator" HorizontalAlignment="Center" FontSize="90" Foreground="#FF90D7EA" FontFamily="Rockwell Extra Bold" FontWeight="Bold" Margin="20"/>
