@@ -18,6 +18,7 @@
 				<Button x:Name="mathCalcButton" Content="Math Calculator" HorizontalAlignment="Center" FontSize="60" Background="#FF6B6B6B" FontFamily="Rockwell Extra Bold" FontWeight="Bold" BorderBrush="#FF424141" BorderThickness="4,4,4,4" Height="90" Width="650" Margin="20" Click="mathCalcButton_Click"/>
 				<Button x:Name="currencyCalcButton" Content="Currency Calculator" HorizontalAlignment="Center" FontSize="60" Background="#FF6B6B6B" FontFamily="Rockwell Extra Bold" FontWeight="Bold" BorderBrush="#FF424141" BorderThickness="4,4,4,4" Height="90" Width="650" Margin="20" Click="currencyCalcButton_Click"/>
 			 <Button x:Name="mortgageCalcButton" Content="Mortgage Calculator" HorizontalAlignment="Center" FontSize="60" Background="#FF6B6B6B" FontFamily="Rockwell Extra Bold" FontWeight="Bold" BorderBrush="#FF424141" BorderThickness="4,4,4,4" Height="90" Width="650" Margin="20" Click="mortgageCalcButton_Click"/>
+			 <Button x:Name="tripCalcButton" Content="Trip Calculator" HorizontalAlignment="Center" FontSize="60" Background="#FF6B6B6B" FontFamily="Rockwell Extra Bold" FontWeight="Bold" BorderBrush="#FF424141" BorderThickness="4,4,4,4" Height="90" Width="650" Margin="20" Click="tripCalcButton_Click" />
 				<Button x:Name="exitButton" Content="Exit" HorizontalAlignment="Center" FontSize="60" Background="#FF6B6B6B" FontFamily="Rockwell Extra Bold" FontWeight="Bold" BorderBrush="#FF424141" BorderThickness="4,4,4,4" Height="90" Width="350" Margin="20"/>
 			</StackPanel>
 		</StackPanel>
