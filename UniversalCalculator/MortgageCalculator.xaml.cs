@@ -90,5 +90,10 @@ namespace Calculator
 			monthlyRepay = borrowAmount * (monthlyRate * Math.Pow(1 + monthlyRate, totalMonths)) / (Math.Pow(1 + monthlyRate, totalMonths) - 1);
 			monthlyRepayTextBox.Text = monthlyRepay.ToString("C");
 		}
+
+		private void exitButton_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(MainMenu));
+		}
 	}
 }
