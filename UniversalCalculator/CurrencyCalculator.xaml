@@ -10,24 +10,24 @@
 
     <Grid>
 		<StackPanel Orientation="Vertical">
-			<TextBlock x:Name="titleTextBlock" Text="Currency Conversion Calculator" FontSize="90" FontWeight="Bold" HorizontalAlignment="Center" Margin="20"></TextBlock>
+			<TextBlock x:Name="titleTextBlock" Text="Currency Conversion Calculator" FontSize="90" Foreground="#FF90D7EA" FontFamily="Rockwell Extra Bold" FontWeight="Bold" HorizontalAlignment="Center" Margin="20"></TextBlock>
 			<StackPanel Orientation="Horizontal">
 				<StackPanel Orientation="Vertical" Width="500" HorizontalAlignment="Left">
-					<TextBlock x:Name="amountTextBlock" Text="Amount $" FontSize="70" HorizontalAlignment="Center" Margin="10" />
-					<TextBox x:Name="amountTextBox" Height="100" Width="400" Margin="10" FontSize="40" Text="" TextAlignment="Center" PlaceholderText="Enter Amount"/>
+					<TextBlock x:Name="amountTextBlock" Text="Amount $" FontFamily="Rockwell Extra Bold" FontSize="70" HorizontalAlignment="Center" Margin="10" />
+					<TextBox x:Name="amountTextBox" Height="100" Width="400" FontFamily="Rockwell Extra Bold" Margin="10" FontSize="40" Text="" TextAlignment="Center" PlaceholderText="Enter Amount"/>
 				</StackPanel>
 				<StackPanel Orientation="Vertical" Width="500" HorizontalAlignment="Center">
-					<TextBlock x:Name="fromTextBlock" Text="From" FontSize="70" HorizontalAlignment="Center" Margin="10"/>
-					<ComboBox x:Name="fromComboBox" Width="400" Height="100" HorizontalAlignment="Center" FontSize="40" Margin="10">
+					<TextBlock x:Name="fromTextBlock" FontFamily="Rockwell Extra Bold" Text="From" FontSize="70" HorizontalAlignment="Center" Margin="10"/>
+					<ComboBox x:Name="fromComboBox" FontFamily="Rockwell Extra Bold" Width="400" Height="100" HorizontalAlignment="Center" FontSize="40" Margin="10">
 						<ComboBoxItem Content="USD - US Dollar" IsSelected="True"/>
 						<ComboBoxItem Content="Euro" />
 						<ComboBoxItem Content="British Pound" />
-						<ComboBoxItem Content="Indian Rupee" />
+						<ComboBoxItem Content="Indian Rupee"  />
 					</ComboBox>
 				</StackPanel>
 				<StackPanel Orientation="Vertical" Width="500" HorizontalAlignment="Right">
-					<TextBlock x:Name="toTextBlock" Text="To" FontSize="70" HorizontalAlignment="Center" Margin="10"/>
-					<ComboBox x:Name="toComboBox" Width="400" Height="100" HorizontalAlignment="Center" FontSize="40" Margin="10">
+					<TextBlock x:Name="toTextBlock" FontFamily="Rockwell Extra Bold" Text="To" FontSize="70" HorizontalAlignment="Center" Margin="10"/>
+					<ComboBox x:Name="toComboBox" FontFamily="Rockwell Extra Bold" Width="400" Height="100" HorizontalAlignment="Center" FontSize="40" Margin="10">
 						<ComboBoxItem Content="USD -US Dollar" IsSelected="True" />
 						<ComboBoxItem Content="Euro"/>
 						<ComboBoxItem Content="British Pound" />
@@ -42,8 +42,8 @@
 				<TextBlock x:Name="toFromTextBlock" Text="" FontSize="30" Margin="10"/>
 			</StackPanel>
 			<StackPanel Orientation="Vertical" HorizontalAlignment="Center">
-				<Button x:Name="convertButton" Content="Convert" Width="300" Margin="10" Height="80" FontSize="50" Click="convertButton_Click"/>
-				<Button x:Name="exitButton" Content="Exit" Width="300" Margin="10" Height="80" FontSize="50" Click="exitButton_Click"/>
+				<Button x:Name="convertButton" FontFamily="Rockwell Extra Bold" Content="Convert" Width="300" Margin="10" Height="80" FontSize="50" Click="convertButton_Click"/>
+				<Button x:Name="exitButton" FontFamily="Rockwell Extra Bold" Content="Exit" Width="300" Margin="10" Height="80" FontSize="50" Click="exitButton_Click"/>
 			</StackPanel>
 		</StackPanel>
 
