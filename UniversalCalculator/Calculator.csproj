@@ -128,6 +128,7 @@
     <Compile Include="MortgageCalculator.xaml.cs">
       <DependentUpon>MortgageCalculator.xaml</DependentUpon>
     </Compile>
+    <Compile Include="System\Windows\Input\Application.cs" />
     <Compile Include="Utils\Utils.cs" />
     <None Include=".editorconfig" />
     <Compile Include="Controls\NumberButtonControl.xaml.cs">

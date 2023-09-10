@@ -15,9 +15,9 @@
 		<StackPanel VerticalAlignment="Center" HorizontalAlignment="Right" Width="1500">
 			<StackPanel>
 			 <TextBlock x:Name="titleTextBlock" Text="Universal Calculator" HorizontalAlignment="Center" FontSize="90" Foreground="#FF90D7EA" FontFamily="Rockwell Extra Bold" FontWeight="Bold" Margin="20"/>
-				<Button x:Name="mathCalcButton" Content="Math Calculator" HorizontalAlignment="Center" FontSize="60" Background="#FF6B6B6B" FontFamily="Rockwell Extra Bold" FontWeight="Bold" BorderBrush="#FF424141" BorderThickness="4,4,4,4" Height="90" Width="650" Margin="20"/>
+				<Button x:Name="mathCalcButton" Content="Math Calculator" HorizontalAlignment="Center" FontSize="60" Background="#FF6B6B6B" FontFamily="Rockwell Extra Bold" FontWeight="Bold" BorderBrush="#FF424141" BorderThickness="4,4,4,4" Height="90" Width="650" Margin="20" Click="mathCalcButton_Click"/>
 				<Button x:Name="currencyCalcButton" Content="Currency Calculator" HorizontalAlignment="Center" FontSize="60" Background="#FF6B6B6B" FontFamily="Rockwell Extra Bold" FontWeight="Bold" BorderBrush="#FF424141" BorderThickness="4,4,4,4" Height="90" Width="650" Margin="20" Click="currencyCalcButton_Click"/>
-			 <Button x:Name="mortgageCalcButton" Content="Mortgage Calculator" HorizontalAlignment="Center" FontSize="60" Background="#FF6B6B6B" FontFamily="Rockwell Extra Bold" FontWeight="Bold" BorderBrush="#FF424141" BorderThickness="4,4,4,4" Height="90" Width="650" Margin="20"/>
+			 <Button x:Name="mortgageCalcButton" Content="Mortgage Calculator" HorizontalAlignment="Center" FontSize="60" Background="#FF6B6B6B" FontFamily="Rockwell Extra Bold" FontWeight="Bold" BorderBrush="#FF424141" BorderThickness="4,4,4,4" Height="90" Width="650" Margin="20" Click="mortgageCalcButton_Click"/>
 				<Button x:Name="exitButton" Content="Exit" HorizontalAlignment="Center" FontSize="60" Background="#FF6B6B6B" FontFamily="Rockwell Extra Bold" FontWeight="Bold" BorderBrush="#FF424141" BorderThickness="4,4,4,4" Height="90" Width="350" Margin="20"/>
 			</StackPanel>
 		</StackPanel>
